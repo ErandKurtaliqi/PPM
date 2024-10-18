@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  FiekAppGr53
+//  AppMobile
 //
-//  Created by Enis Hoxha on 2/20/24.
-//  Copyright © 2024 Enis Hoxha. All rights reserved.
+//  Created by Elda Reçica on 2/20/24.
+//  Copyright © 2024 Elda Reçica. All rights reserved.
 //
 
 import UIKit
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "FiekAppGr53CoreData")
+        let container = NSPersistentContainer(name: "AppMobileCoreData")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

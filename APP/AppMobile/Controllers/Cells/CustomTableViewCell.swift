@@ -1,9 +1,9 @@
 //
 //  CustomTableViewCell.swift
-//  FiekAppGr53
+//  AppMobile
 //
-//  Created by Enis Hoxha on 2/26/24.
-//  Copyright © 2024 Enis Hoxha. All rights reserved.
+//  Created by Elda Reçica on 10/18/24.
+//  Copyright © 2024 Elda Reçica. All rights reserved.
 //
 
 import UIKit

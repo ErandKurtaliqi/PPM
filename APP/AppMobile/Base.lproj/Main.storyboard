@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FiekAppGr53" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--Registration form-->
         <scene sceneID="q0T-EO-FOn">
             <objects>
-                <viewController id="Txa-1r-BPy" customClass="SignUpViewController" customModule="FiekAppGr53" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Txa-1r-BPy" customClass="SignUpViewController" customModule="AppMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aLi-2O-PLF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,7 +152,7 @@
         <!--Log In Form-->
         <scene sceneID="7N1-g8-3sj">
             <objects>
-                <viewController id="sS2-vK-fnf" customClass="LogInViewController" customModule="FiekAppGr53" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sS2-vK-fnf" customClass="LogInViewController" customModule="AppMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WBx-uo-S78">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,13 +210,13 @@
         <!--Your Notes-->
         <scene sceneID="Xcy-LY-M3d">
             <objects>
-                <tableViewController id="DCc-4U-0SF" customClass="CustomTableViewController" customModule="FiekAppGr53" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="DCc-4U-0SF" customClass="CustomTableViewController" customModule="AppMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ivl-f4-tsG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow" rowHeight="167" id="ulc-0p-5Ub" customClass="CustomTableViewCell" customModule="FiekAppGr53" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow" rowHeight="167" id="ulc-0p-5Ub" customClass="CustomTableViewCell" customModule="AppMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="167"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ulc-0p-5Ub" id="qlN-sB-6cf">
@@ -244,7 +244,7 @@
                                     <outlet property="lblname" destination="wmh-IL-ahH" id="u9u-b7-Ktx"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow1" rowHeight="184" id="Ie7-h3-jjd" customClass="CustomTableViewCell_1" customModule="FiekAppGr53" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow1" rowHeight="184" id="Ie7-h3-jjd" customClass="CustomTableViewCell_1" customModule="AppMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="195" width="414" height="184"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ie7-h3-jjd" id="Mhb-2e-JIf">
@@ -272,7 +272,7 @@
                                     <outlet property="lblname1" destination="Bkm-e7-ruW" id="NPq-PZ-boY"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow2" rowHeight="215" id="t8m-UI-jem" customClass="CustomTableViewCell_2" customModule="FiekAppGr53" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow2" rowHeight="215" id="t8m-UI-jem" customClass="CustomTableViewCell_2" customModule="AppMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="379" width="414" height="215"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t8m-UI-jem" id="0BG-dz-W50">
@@ -300,7 +300,7 @@
                                     <outlet property="lblname2" destination="GGe-OO-gNi" id="0IW-gN-MbE"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow3" rowHeight="156" id="W3F-bp-HVL" customClass="CustomTableViewCell_3" customModule="FiekAppGr53" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow3" rowHeight="156" id="W3F-bp-HVL" customClass="CustomTableViewCell_3" customModule="AppMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="594" width="414" height="156"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W3F-bp-HVL" id="Gp3-dG-o69">
@@ -328,7 +328,7 @@
                                     <outlet property="lblname3" destination="Sv5-31-TNX" id="pHC-SP-8lE"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow4" rowHeight="78" id="pbt-bA-18l" customClass="CustomTableViewCell_4" customModule="FiekAppGr53" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteRow4" rowHeight="78" id="pbt-bA-18l" customClass="CustomTableViewCell_4" customModule="AppMobile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="750" width="414" height="78"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pbt-bA-18l" id="uJx-Xo-DqR">
@@ -388,7 +388,7 @@
         <!--Note Details-->
         <scene sceneID="Z46-QQ-gLo">
             <objects>
-                <viewController id="Tmc-rb-SHw" customClass="NewNoteViewController" customModule="FiekAppGr53" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tmc-rb-SHw" customClass="NewNoteViewController" customModule="AppMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eBQ-6g-cym">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -15,13 +15,13 @@
 		1D58B6252B84DA6800E14F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D58B6232B84DA6800E14F1A /* Main.storyboard */; };
 		1D58B6272B84DA6A00E14F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D58B6262B84DA6A00E14F1A /* Assets.xcassets */; };
 		1D58B62A2B84DA6A00E14F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D58B6282B84DA6A00E14F1A /* LaunchScreen.storyboard */; };
-		1D58B6352B84DA6A00E14F1A /* FiekAppGr53Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58B6342B84DA6A00E14F1A /* FiekAppGr53Tests.swift */; };
-		1D58B6402B84DA6A00E14F1A /* FiekAppGr53UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58B63F2B84DA6A00E14F1A /* FiekAppGr53UITests.swift */; };
+		1D58B6352B84DA6A00E14F1A /* AppMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58B6342B84DA6A00E14F1A /* AppMobileTests.swift */; };
+		1D58B6402B84DA6A00E14F1A /* AppMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58B63F2B84DA6A00E14F1A /* AppMobileUITests.swift */; };
 		1D58B64E2B84EAC200E14F1A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58B64D2B84EAC200E14F1A /* LogInViewController.swift */; };
 		1DDFD9B72B8CB7A80028353A /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9B62B8CB7A80028353A /* CustomTableViewController.swift */; };
 		1DDFD9B92B8CB8C50028353A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9B82B8CB8C50028353A /* CustomTableViewCell.swift */; };
 		1DDFD9BB2B8CC8E10028353A /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9BA2B8CC8E10028353A /* NewNoteViewController.swift */; };
-		1DDFD9BE2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9BC2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodeld */; };
+		1DDFD9BE2B8CE0880028353A /* AppMobileCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9BC2B8CE0880028353A /* AppMobileCoreData.xcdatamodeld */; };
 		1DDFD9C62B8CEF800028353A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFD9C52B8CEF800028353A /* Note.swift */; };
 		1DE91C172B90D0A400D63C89 /* CustomTableViewCell-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C162B90D0A400D63C89 /* CustomTableViewCell-1.swift */; };
 		1DE91C192B90D1D300D63C89 /* CustomTableViewCell-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C182B90D1D300D63C89 /* CustomTableViewCell-2.swift */; };
@@ -35,21 +35,21 @@
 			containerPortal = 1D58B6122B84DA6800E14F1A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D58B6192B84DA6800E14F1A;
-			remoteInfo = FiekAppGr53;
+			remoteInfo = AppMobile;
 		};
 		1D58B63C2B84DA6A00E14F1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D58B6122B84DA6800E14F1A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D58B6192B84DA6800E14F1A;
-			remoteInfo = FiekAppGr53;
+			remoteInfo = AppMobile;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D54A9F52B8FB91200D0B334 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1D54A9F72B8FB97A00D0B334 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		1D58B61A2B84DA6800E14F1A /* FiekAppGr53.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiekAppGr53.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D58B61A2B84DA6800E14F1A /* AppMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D58B61D2B84DA6800E14F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D58B61F2B84DA6800E14F1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D58B6212B84DA6800E14F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,17 +57,17 @@
 		1D58B6262B84DA6A00E14F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D58B6292B84DA6A00E14F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D58B62B2B84DA6A00E14F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D58B6302B84DA6A00E14F1A /* FiekAppGr53Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiekAppGr53Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D58B6342B84DA6A00E14F1A /* FiekAppGr53Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiekAppGr53Tests.swift; sourceTree = "<group>"; };
+		1D58B6302B84DA6A00E14F1A /* AppMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D58B6342B84DA6A00E14F1A /* AppMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMobileTests.swift; sourceTree = "<group>"; };
 		1D58B6362B84DA6A00E14F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D58B63B2B84DA6A00E14F1A /* FiekAppGr53UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiekAppGr53UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D58B63F2B84DA6A00E14F1A /* FiekAppGr53UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiekAppGr53UITests.swift; sourceTree = "<group>"; };
+		1D58B63B2B84DA6A00E14F1A /* AppMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D58B63F2B84DA6A00E14F1A /* AppMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMobileUITests.swift; sourceTree = "<group>"; };
 		1D58B6412B84DA6A00E14F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D58B64D2B84EAC200E14F1A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1DDFD9B62B8CB7A80028353A /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		1DDFD9B82B8CB8C50028353A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		1DDFD9BA2B8CC8E10028353A /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
-		1DDFD9BD2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiekAppGr53CoreData.xcdatamodel; sourceTree = "<group>"; };
+		1DDFD9BD2B8CE0880028353A /* AppMobileCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppMobileCoreData.xcdatamodel; sourceTree = "<group>"; };
 		1DDFD9C52B8CEF800028353A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		1DE91C162B90D0A400D63C89 /* CustomTableViewCell-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTableViewCell-1.swift"; sourceTree = "<group>"; };
 		1DE91C182B90D1D300D63C89 /* CustomTableViewCell-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTableViewCell-2.swift"; sourceTree = "<group>"; };
@@ -124,9 +124,9 @@
 		1D58B6112B84DA6800E14F1A = {
 			isa = PBXGroup;
 			children = (
-				1D58B61C2B84DA6800E14F1A /* FiekAppGr53 */,
-				1D58B6332B84DA6A00E14F1A /* FiekAppGr53Tests */,
-				1D58B63E2B84DA6A00E14F1A /* FiekAppGr53UITests */,
+				1D58B61C2B84DA6800E14F1A /* AppMobile */,
+				1D58B6332B84DA6A00E14F1A /* AppMobileTests */,
+				1D58B63E2B84DA6A00E14F1A /* AppMobileUITests */,
 				1D58B61B2B84DA6800E14F1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,14 +134,14 @@
 		1D58B61B2B84DA6800E14F1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D58B61A2B84DA6800E14F1A /* FiekAppGr53.app */,
-				1D58B6302B84DA6A00E14F1A /* FiekAppGr53Tests.xctest */,
-				1D58B63B2B84DA6A00E14F1A /* FiekAppGr53UITests.xctest */,
+				1D58B61A2B84DA6800E14F1A /* AppMobile.app */,
+				1D58B6302B84DA6A00E14F1A /* AppMobileTests.xctest */,
+				1D58B63B2B84DA6A00E14F1A /* AppMobileUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D58B61C2B84DA6800E14F1A /* FiekAppGr53 */ = {
+		1D58B61C2B84DA6800E14F1A /* AppMobile */ = {
 			isa = PBXGroup;
 			children = (
 				1D55A0CF2B8E926200A2A893 /* Models */,
@@ -153,27 +153,27 @@
 				1D58B6262B84DA6A00E14F1A /* Assets.xcassets */,
 				1D58B6282B84DA6A00E14F1A /* LaunchScreen.storyboard */,
 				1D58B62B2B84DA6A00E14F1A /* Info.plist */,
-				1DDFD9BC2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodeld */,
+				1DDFD9BC2B8CE0880028353A /* AppMobileCoreData.xcdatamodeld */,
 			);
-			path = FiekAppGr53;
+			path = AppMobile;
 			sourceTree = "<group>";
 		};
-		1D58B6332B84DA6A00E14F1A /* FiekAppGr53Tests */ = {
+		1D58B6332B84DA6A00E14F1A /* AppMobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D58B6342B84DA6A00E14F1A /* FiekAppGr53Tests.swift */,
+				1D58B6342B84DA6A00E14F1A /* AppMobileTests.swift */,
 				1D58B6362B84DA6A00E14F1A /* Info.plist */,
 			);
-			path = FiekAppGr53Tests;
+			path = AppMobileTests;
 			sourceTree = "<group>";
 		};
-		1D58B63E2B84DA6A00E14F1A /* FiekAppGr53UITests */ = {
+		1D58B63E2B84DA6A00E14F1A /* AppMobileUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1D58B63F2B84DA6A00E14F1A /* FiekAppGr53UITests.swift */,
+				1D58B63F2B84DA6A00E14F1A /* AppMobileUITests.swift */,
 				1D58B6412B84DA6A00E14F1A /* Info.plist */,
 			);
-			path = FiekAppGr53UITests;
+			path = AppMobileUITests;
 			sourceTree = "<group>";
 		};
 		1DE91C152B90D06E00D63C89 /* Cells */ = {
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D58B6192B84DA6800E14F1A /* FiekAppGr53 */ = {
+		1D58B6192B84DA6800E14F1A /* AppMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D58B6442B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53" */;
+			buildConfigurationList = 1D58B6442B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobile" */;
 			buildPhases = (
 				1D58B6162B84DA6800E14F1A /* Sources */,
 				1D58B6172B84DA6800E14F1A /* Frameworks */,
@@ -203,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = FiekAppGr53;
-			productName = FiekAppGr53;
-			productReference = 1D58B61A2B84DA6800E14F1A /* FiekAppGr53.app */;
+			name = AppMobile;
+			productName = AppMobile;
+			productReference = 1D58B61A2B84DA6800E14F1A /* AppMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D58B62F2B84DA6A00E14F1A /* FiekAppGr53Tests */ = {
+		1D58B62F2B84DA6A00E14F1A /* AppMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D58B6472B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53Tests" */;
+			buildConfigurationList = 1D58B6472B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobileTests" */;
 			buildPhases = (
 				1D58B62C2B84DA6A00E14F1A /* Sources */,
 				1D58B62D2B84DA6A00E14F1A /* Frameworks */,
@@ -221,14 +221,14 @@
 			dependencies = (
 				1D58B6322B84DA6A00E14F1A /* PBXTargetDependency */,
 			);
-			name = FiekAppGr53Tests;
-			productName = FiekAppGr53Tests;
-			productReference = 1D58B6302B84DA6A00E14F1A /* FiekAppGr53Tests.xctest */;
+			name = AppMobileTests;
+			productName = AppMobileTests;
+			productReference = 1D58B6302B84DA6A00E14F1A /* AppMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1D58B63A2B84DA6A00E14F1A /* FiekAppGr53UITests */ = {
+		1D58B63A2B84DA6A00E14F1A /* AppMobileUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D58B64A2B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53UITests" */;
+			buildConfigurationList = 1D58B64A2B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobileUITests" */;
 			buildPhases = (
 				1D58B6372B84DA6A00E14F1A /* Sources */,
 				1D58B6382B84DA6A00E14F1A /* Frameworks */,
@@ -239,9 +239,9 @@
 			dependencies = (
 				1D58B63D2B84DA6A00E14F1A /* PBXTargetDependency */,
 			);
-			name = FiekAppGr53UITests;
-			productName = FiekAppGr53UITests;
-			productReference = 1D58B63B2B84DA6A00E14F1A /* FiekAppGr53UITests.xctest */;
+			name = AppMobileUITests;
+			productName = AppMobileUITests;
+			productReference = 1D58B63B2B84DA6A00E14F1A /* AppMobileUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +252,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "Enis Hoxha";
+				ORGANIZATIONNAME = "Elda Reçica";
 				TargetAttributes = {
 					1D58B6192B84DA6800E14F1A = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D58B6152B84DA6800E14F1A /* Build configuration list for PBXProject "FiekAppGr53" */;
+			buildConfigurationList = 1D58B6152B84DA6800E14F1A /* Build configuration list for PBXProject "AppMobile" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D58B6192B84DA6800E14F1A /* FiekAppGr53 */,
-				1D58B62F2B84DA6A00E14F1A /* FiekAppGr53Tests */,
-				1D58B63A2B84DA6A00E14F1A /* FiekAppGr53UITests */,
+				1D58B6192B84DA6800E14F1A /* AppMobile */,
+				1D58B62F2B84DA6A00E14F1A /* AppMobileTests */,
+				1D58B63A2B84DA6A00E14F1A /* AppMobileUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D54A9F82B8FB97A00D0B334 /* SignUpViewController.swift in Sources */,
-				1DDFD9BE2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodeld in Sources */,
+				1DDFD9BE2B8CE0880028353A /* AppMobileCoreData.xcdatamodeld in Sources */,
 				1DDFD9B92B8CB8C50028353A /* CustomTableViewCell.swift in Sources */,
 				1D58B64E2B84EAC200E14F1A /* LogInViewController.swift in Sources */,
 				1DDFD9BB2B8CC8E10028353A /* NewNoteViewController.swift in Sources */,
@@ -341,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D58B6352B84DA6A00E14F1A /* FiekAppGr53Tests.swift in Sources */,
+				1D58B6352B84DA6A00E14F1A /* AppMobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D58B6402B84DA6A00E14F1A /* FiekAppGr53UITests.swift in Sources */,
+				1D58B6402B84DA6A00E14F1A /* AppMobileUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +358,12 @@
 /* Begin PBXTargetDependency section */
 		1D58B6322B84DA6A00E14F1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D58B6192B84DA6800E14F1A /* FiekAppGr53 */;
+			target = 1D58B6192B84DA6800E14F1A /* AppMobile */;
 			targetProxy = 1D58B6312B84DA6A00E14F1A /* PBXContainerItemProxy */;
 		};
 		1D58B63D2B84DA6A00E14F1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D58B6192B84DA6800E14F1A /* FiekAppGr53 */;
+			target = 1D58B6192B84DA6800E14F1A /* AppMobile */;
 			targetProxy = 1D58B63C2B84DA6A00E14F1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,12 +508,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53/Info.plist;
+				INFOPLIST_FILE = AppMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -526,12 +526,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53/Info.plist;
+				INFOPLIST_FILE = AppMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,18 +545,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53Tests/Info.plist;
+				INFOPLIST_FILE = AppMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiekAppGr53.app/FiekAppGr53";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMobile.app/AppMobile";
 			};
 			name = Debug;
 		};
@@ -567,18 +567,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53Tests/Info.plist;
+				INFOPLIST_FILE = AppMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiekAppGr53.app/FiekAppGr53";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMobile.app/AppMobile";
 			};
 			name = Release;
 		};
@@ -588,17 +588,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53UITests/Info.plist;
+				INFOPLIST_FILE = AppMobileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FiekAppGr53;
+				TEST_TARGET_NAME = AppMobile;
 			};
 			name = Debug;
 		};
@@ -608,24 +608,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QQ5DTVQVP;
-				INFOPLIST_FILE = FiekAppGr53UITests/Info.plist;
+				INFOPLIST_FILE = AppMobileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FiekAppGr53UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppMobileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FiekAppGr53;
+				TEST_TARGET_NAME = AppMobile;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D58B6152B84DA6800E14F1A /* Build configuration list for PBXProject "FiekAppGr53" */ = {
+		1D58B6152B84DA6800E14F1A /* Build configuration list for PBXProject "AppMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D58B6422B84DA6A00E14F1A /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D58B6442B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53" */ = {
+		1D58B6442B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D58B6452B84DA6A00E14F1A /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D58B6472B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53Tests" */ = {
+		1D58B6472B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D58B6482B84DA6A00E14F1A /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D58B64A2B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "FiekAppGr53UITests" */ = {
+		1D58B64A2B84DA6A00E14F1A /* Build configuration list for PBXNativeTarget "AppMobileUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D58B64B2B84DA6A00E14F1A /* Debug */,
@@ -664,13 +664,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1DDFD9BC2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodeld */ = {
+		1DDFD9BC2B8CE0880028353A /* AppMobileCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1DDFD9BD2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodel */,
+				1DDFD9BD2B8CE0880028353A /* AppMobileCoreData.xcdatamodel */,
 			);
-			currentVersion = 1DDFD9BD2B8CE0880028353A /* FiekAppGr53CoreData.xcdatamodel */;
-			path = FiekAppGr53CoreData.xcdatamodeld;
+			currentVersion = 1DDFD9BD2B8CE0880028353A /* AppMobileCoreData.xcdatamodel */;
+			path = AppMobileCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

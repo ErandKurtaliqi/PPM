@@ -1,15 +1,15 @@
 //
-//  FiekAppGr53Tests.swift
-//  FiekAppGr53Tests
+//  AppMobileTests.swift
+//  AppMobileTests
 //
-//  Created by Enis Hoxha on 2/20/24.
-//  Copyright © 2024 Enis Hoxha. All rights reserved.
+//  Created by Elda Reçica on 10/18/24.
+//  Copyright © 2024 Elda Reçica. All rights reserved.
 //
 
 import XCTest
-@testable import FiekAppGr53
+@testable import AppMobile
 
-class FiekAppGr53Tests: XCTestCase {
+class AppMobileTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
